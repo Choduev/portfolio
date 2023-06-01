@@ -1,0 +1,258 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+article > * + * {
+    margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+body{
+    background: url("https://uprostim.com/wp-content/uploads/2021/04/image014-45-scaled.jpg");
+    background-size: cover;
+}
+.menu {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos p{
+    font-size: 50px;
+    color: red;
+    transition: 1s;
+}
+.blue:hover{
+    font-size:60px;
+}
+.red:hover{
+    font-size:60px;
+}
+.yellow:hover{
+    font-size:60px;
+}
+.green:hover{
+    font-size:60px;
+}
+.home{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.button{
+    position:relative;
+    display: inline-block;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    padding: 10px 10px;
+    font-family: 'Montserrat';
+    transition: .4s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0 0 10px red, 0 0 40px red;
+    background-color: red;
+    color: #222;
+    transition-delay: 0s;
+}
+.fon-it-school{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.it-school{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.geeks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    background: white;
+    margin-top: 100px;
+}
+.geeks h2{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.geeks img{
+    margin-left: 20px;
+}
+.it-teacher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.geeks-teacher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    background: white;
+    margin-top: 50px;
+}
+.geeks-teacher h2{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.geeks-teacher img{
+    margin-right: 20px;
+}
+.it-student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.geeks-student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    background: white;
+    margin-top: 50px;
+}
+.geeks-student h2{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.geeks-student img{
+    margin-left: 20px;
+}
+.fon-it-school a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 22px;
+}
+.footer-cont{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat";
+    flex-direction: column;
+    margin-top: 70px;
+}
+.footer-cont a{
+    text-decoration: none;
+    color: blue;
+    font-family: "Montserrat";
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+}
+.tel{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.wat{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.inst{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.tgr{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 150px;
+}
+

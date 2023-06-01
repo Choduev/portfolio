@@ -1,0 +1,247 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+article > * + * {
+    margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+body{
+    background: url("https://uprostim.com/wp-content/uploads/2021/04/image014-45-scaled.jpg");
+    background-size: cover;
+}
+menu {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos p{
+    font-size: 50px;
+    color: red;
+    transition: 1s;
+}
+.blue:hover{
+    font-size:60px;
+}
+.red:hover{
+    font-size:60px;
+}
+.yellow:hover{
+    font-size:60px;
+}
+.green:hover{
+    font-size:60px;
+}
+.home{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 47px;
+    border-radius: 5px;
+}
+.button{
+    position:relative;
+    display: inline-block;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    padding: 10px 10px;
+    font-family: 'Montserrat';
+    transition: .4s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0 0 10px red, 0 0 40px red;
+    background-color: red;
+    color: #222;
+    transition-delay: 0s;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kn{
+    width: 900px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    font-family: 'Montserrat';
+}
+.img img{
+    border-radius: 50px;
+}
+.text-box h2{
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+.text-box p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-skill{
+    width: 900px;
+    height: 200px;
+    font-family: 'Montserrat';
+    background-color: #8B0000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+.my-skill h2{
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+progress {
+    width: 600px; /* задайте ширину прогресс-бара */
+    height: 20px; /* задайте высоту прогресс-бара */
+    background-color: #f0f0f0; /* задайте цвет фона прогресс-бара */
+}
+.progress p{
+    color: white;
+}
+
+progress::-webkit-progress-value {
+    background-color: #FF0000; /* задайте цвет заполненной области */
+}
+
+progress::-moz-progress-bar {
+    background-color: #FF0000; /* задайте цвет заполненной области для Firefox */
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f0f0f0; /* задайте цвет фона прогресс-бара для WebKit браузеров */
+}
+
+.footer-cont{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat";
+    flex-direction: column;
+    margin-top: 70px;
+}
+.footer-cont a{
+    text-decoration: none;
+    color: blue;
+    font-family: "Montserrat";
+
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 150px;
+}
+.tel{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.wat{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.inst{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 200px;
+}
+.tgr{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+

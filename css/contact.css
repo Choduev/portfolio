@@ -1,0 +1,206 @@
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+ul[class],
+ol[class] {
+    list-style: none;
+}
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+article > * + * {
+    margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+html{
+    opacity: 0.9;
+}
+body{
+    background: url("https://uprostim.com/wp-content/uploads/2021/04/image014-45-scaled.jpg");
+    background-size: cover;
+}
+menu {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+}
+
+.logos p{
+    font-size: 50px;
+    color: red;
+    transition: 1s;
+}
+.blue:hover{
+    font-size:60px;
+}
+.red:hover{
+    font-size:60px;
+}
+.yellow:hover{
+    font-size:60px;
+}
+.green:hover{
+    font-size:60px;
+}
+.home{
+    width: 800px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.button{
+    position:relative;
+    display: inline-block;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    padding: 10px 10px;
+    font-family: 'Montserrat';
+    transition: .4s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0 0 10px red, 0 0 40px red;
+    background-color: red;
+    color: #222;
+    transition-delay: 0s;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin-top: 150px;
+}
+.contact-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background: white;
+}
+.contact-whatsapp p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.contact-telephone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background: white;
+}
+.contact-telephone p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.contact-Instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background: white;
+}
+.contact-Instagram p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-left: 25px;
+}
+.contact-telegram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 50px;
+}
+.contact-telegram p{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-left: 65px;
+}
